@@ -3,5 +3,5 @@ from .models import *
 
 class Bookserializer(serializers.ModelSerializer):
     class Meta:
-        model=BooksModel
+        model = BooksModel
         fields='__all__'
